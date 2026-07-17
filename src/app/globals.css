@@ -82,10 +82,12 @@ a {
 .drawer-overlay {
   position: fixed;
   inset: 0;
+  height: 100dvh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 998;
   opacity: 0;
   animation: fadeIn 0.3s ease-out forwards;
+  overscroll-behavior: none;
 }
 
 .drawer-overlay-closing {
@@ -98,6 +100,7 @@ a {
   top: 0;
   right: 0;
   bottom: 0;
+  height: 100dvh;
   width: 320px;
   max-width: 85vw;
   background-color: rgba(10, 22, 40, 0.7);
@@ -109,6 +112,8 @@ a {
   flex-direction: column;
   animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   box-shadow: -15px 0 40px rgba(0, 0, 0, 0.6);
+  overscroll-behavior: none;
+  overflow-y: auto;
 }
 
 .drawer-panel-closing {
