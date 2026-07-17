@@ -171,7 +171,7 @@ export const DefaultHeader = () => {
           {/* Drawer Panel */}
           <div className={`drawer-panel ${drawerClosing ? "drawer-panel-closing" : ""}`}>
             {/* Drawer Header */}
-            <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
+            <div className="flex items-center justify-between px-8 py-6 border-b border-white/5 bg-white/5">
               <Image
                 width={45}
                 src={logoLetterWhite}
@@ -191,22 +191,26 @@ export const DefaultHeader = () => {
             </div>
 
             {/* Drawer Nav Links */}
-            <nav className="flex flex-col py-4">
+            <nav className="flex flex-col py-2 mt-4">
               {navLinks.map((link, index) => (
                 <a
                   key={link.label}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
                   className={`
-                    px-6 py-4
-                    text-white/80
-                    text-base
-                    font-semibold
-                    tracking-wider
-                    border-b border-white/5
-                    hover:bg-white/5
+                    px-8 py-4
+                    text-white/70
+                    text-lg
+                    font-medium
+                    tracking-wide
+                    border-l-2 border-transparent
+                    hover:border-royalBlue
+                    hover:bg-gradient-to-r hover:from-white/5 hover:to-transparent
                     hover:text-white
+                    hover:pl-10
                     transition-all duration-300
+                    flex items-center justify-between
+                    group
                   `}
                   style={{
                     animation: `fadeInUp 0.4s ease-out ${index * 0.06}s forwards`,
@@ -214,12 +218,13 @@ export const DefaultHeader = () => {
                   }}
                 >
                   {link.label}
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity text-royalBlue text-xl translate-x-[-10px] group-hover:translate-x-0 duration-300">→</span>
                 </a>
               ))}
             </nav>
 
             {/* Drawer CTA */}
-            <div className="px-6 mt-4" style={{
+            <div className="px-8 mt-6" style={{
               animation: `fadeInUp 0.4s ease-out ${navLinks.length * 0.06}s forwards`,
               opacity: 0,
             }}>
@@ -232,9 +237,9 @@ export const DefaultHeader = () => {
             </div>
 
             {/* Drawer Footer */}
-            <div className="mt-auto px-6 py-6 border-t border-white/10 flex flex-col items-center gap-4">
+            <div className="mt-auto px-8 py-8 flex flex-col items-center gap-6">
               <LanguageSwitcher direction="up" />
-              <p className="text-white/40 text-xs text-center">
+              <p className="text-white/30 text-xs text-center font-light tracking-wide uppercase">
                 © 2024 Adriano Castro
               </p>
             </div>
