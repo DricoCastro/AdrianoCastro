@@ -1,0 +1,61 @@
+{
+  "Header": {
+    "home": "Início",
+    "aboutMe": "Sobre mim",
+    "projects": "Projetos",
+    "certificates": "Certificados",
+    "letsTalk": "Vamos Conversar"
+  },
+  "Hero": {
+    "hello": "Olá, sou",
+    "name": "Adriano Castro",
+    "description": "👋🏻 Bem-vindo(a), este é o meu site que uso para me apresentar e mostrar minhas qualidades, especialidades e experiências adquiridas em minha jornada como desenvolvedor. Tenha uma ótima experiência e, se sentir vontade, pode entrar em contato comigo pelas redes sociais abaixo. 😃",
+    "downloadCv": "Baixar CV",
+    "role": "Desenvolvedor Web e Mobile"
+  },
+  "AboutMe": {
+    "badge": "Sobre Mim",
+    "title": "Minha Trajetória para me tornar um Engenheiro de Software",
+    "intro": "Com uma paixão inabalável por tecnologia, minha jornada como desenvolvedor de software começou como um hobby, explorando projetos pessoais. Foi durante o lockdown que reavaliei minha trajetória profissional e decidi me dedicar integralmente à área.",
+    "tech": "Com sólida experiência em JavaScript e Next.js, além de especialização em Firebase e GraphQL, trilhei meu caminho no desenvolvimento web. Atualmente, estou focado em meus estudos de Engenharia de Software na Universidade de Franca, fortalecendo minha base teórica e prática.",
+    "currentRoleBadge": "Cargo Atual",
+    "currentRoleLead": "Lidero a arquitetura front-end e o desenvolvimento da",
+    "currentRolePlatform": "NAVIA",
+    "currentRoleAt": "na",
+    "currentRoleCompany": "MaxUp Consultoria Empresarial",
+    "currentRoleDesc": "Sou responsável por implementar melhorias de UI/UX, otimizar o desempenho do lado do cliente e orquestrar apresentações técnicas e lançamentos de funcionalidades diretamente para stakeholders e usuários finais.",
+    "secultPrefix": "Tenho particular orgulho do sistema que idealizei e desenvolvi para a",
+    "secultName": "Secretaria de Cultura do Estado de Minas Gerais (SECULT)",
+    "secultSuffix": ". Esta conquista demonstra minha capacidade de traduzir requisitos complexos em soluções eficazes.",
+    "expPrefix": "Minhas experiências na",
+    "smarthow": "SmartHow",
+    "smarthowDesc": "(processos industriais com IA) e",
+    "gs3": "GS3",
+    "gs3Desc": "(monitoramento geotécnico) aprimoraram ainda mais minhas habilidades em ambientes inovadores. Hoje, mantenho minha curiosidade intelectual e um compromisso contínuo em fazer contribuições significativas para projetos desafiadores."
+  },
+  "Projects": {
+    "badge": "Projetos",
+    "title": "Dando Vida às Ideias!",
+    "minasDesc": "Plataforma web desenvolvida por mim e utilizada pela secretaria de cultura de Minas Gerais (SECULT), para gestão, controle e capacitação profissional de demandas geradas pelos municípios.",
+    "gs3Desc": "Software de monitoramento geotécnico e estrutural para centralizar dados de instrumentos, análise de estabilidade, análise de séries temporais e acionamento de alarmes com rapidez e rastreabilidade, entre outras funcionalidades.",
+    "naviaDesc": "O Navia é uma plataforma de gestão completa criada para conectar consultores e clientes de forma eficiente. Nossa solução centraliza projetos, simplifica processos e facilita a comunicação, oferecendo tudo o que você precisa para escalar sua consultoria e entregar resultados com excelência e transparência.",
+    "repDesc": "Aplicativo desenvolvido no framework flutter e com banco de dados no firebase. Plataforma móvel com múltiplas funcionalidades como passagens aéreas, hotéis, banco digital e sua principal função é voltada para a mobilidade urbana."
+  },
+  "Certificates": {
+    "badge": "Certificados",
+    "title": "Nunca Pare de Aprender!",
+    "completedWith": "Concluiu todos os estudos e requisitos com uma carga horária total de",
+    "hours": "horas",
+    "certificate": "Certificado",
+    "absoluteZeroTitle": "Programação do Zero Absoluto",
+    "flutterFirstTitle": "Primeiro Login Flutter",
+    "intensiveNextTitle": "Intensivo Nextjs & Reactjs",
+    "completeFlutterTitle": "Flutter & Dart Completo",
+    "jsAuthorityTitle": "Autoridade em JS"
+  },
+  "Footer": {
+    "sayHello": "DIGA OLÁ",
+    "letWorkTogether": "Vamos Trabalhar Juntos.",
+    "contact": "Contato"
+  }
+}

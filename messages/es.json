@@ -1,0 +1,61 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "aboutMe": "Sobre Mí",
+    "projects": "Proyectos",
+    "certificates": "Certificados",
+    "letsTalk": "Hablemos"
+  },
+  "Hero": {
+    "hello": "Hola, soy",
+    "name": "Adriano Castro",
+    "description": "👋🏻 Bienvenido(a), este es mi sitio web que utilizo para presentarme y mostrar mis cualidades, especialidades y mis experiencias adquiridas en mi viaje aquí como desarrollador. Que tengas una gran experiencia y, si te sientes cómodo, puedes contactarme a través de las redes sociales a continuación. 😃",
+    "downloadCv": "Descargar CV",
+    "role": "Desarrollador Web y Móvil"
+  },
+  "AboutMe": {
+    "badge": "Sobre Mí",
+    "title": "Mi Trayectoria para convertirme en Desarrollador de Software",
+    "intro": "Con una pasión inquebrantable por la tecnología, mi viaje como desarrollador de software comenzó como un pasatiempo, explorando proyectos personales. Fue durante el confinamiento que reevalué mi trayectoria profesional y decidí dedicarme por completo al campo.",
+    "tech": "Con sólida experiencia en JavaScript y Next.js, junto con experiencia en Firebase y GraphQL, he forjado mi camino en el desarrollo web. Actualmente, estoy inmerso en mis estudios de Ingeniería de Software en la Universidad de Franca, fortaleciendo mi base teórica y práctica.",
+    "currentRoleBadge": "Rol Actual",
+    "currentRoleLead": "Lidero la arquitectura front-end y el desarrollo de la plataforma",
+    "currentRolePlatform": "NAVIA",
+    "currentRoleAt": "en",
+    "currentRoleCompany": "MaxUp Consultoria Empresarial",
+    "currentRoleDesc": "Soy responsable de implementar mejoras de UI/UX, optimizar el rendimiento del lado del cliente y orquestar presentaciones técnicas y lanzamientos de funcionalidades directamente a las partes interesadas y usuarios finales.",
+    "secultPrefix": "Estoy particularmente orgulloso del sistema que concebí y desarrollé para la",
+    "secultName": "Secretaría de Cultura del Estado de Minas Gerais (SECULT)",
+    "secultSuffix": ". Este logro demuestra mi capacidad para traducir requisitos complejos en soluciones eficaces.",
+    "expPrefix": "Mis experiencias en",
+    "smarthow": "SmartHow",
+    "smarthowDesc": "(procesos industriales con IA) y",
+    "gs3": "GS3",
+    "gs3Desc": "(monitoreo geotécnico) perfeccionaron aún más mis habilidades en entornos innovadores. Hoy en día, mantengo mi curiosidad intelectual y un compromiso continuo de hacer contribuciones significativas a proyectos desafiantes."
+  },
+  "Projects": {
+    "badge": "Proyectos",
+    "title": "¡Haciendo Realidad las Ideas!",
+    "minasDesc": "Plataforma web desarrollada por mí y utilizada por la secretaría de cultura de Minas Gerais (SECULT), para la gestión, control y formación profesional de las demandas generadas por los municipios.",
+    "gs3Desc": "Software de monitoreo geotécnico y estructural para centralizar datos de instrumentos, análisis de estabilidad, análisis de series de tiempo y activación de alarmas con velocidad y trazabilidad, entre otras características.",
+    "naviaDesc": "Navia es una plataforma de gestión completa diseñada para conectar a consultores y clientes de manera eficiente. Nuestra solución centraliza proyectos, simplifica procesos y facilita la comunicación, ofreciendo todo lo necesario para escalar su consultoría y entregar resultados con excelencia y transparencia.",
+    "repDesc": "Aplicación desarrollada en el framework flutter y con base de datos en firebase. Plataforma móvil con múltiples funcionalidades como boletos de avión, hoteles, banca digital y su función principal está orientada a la movilidad urbana."
+  },
+  "Certificates": {
+    "badge": "Certificados",
+    "title": "¡Nunca Pares de Aprender!",
+    "completedWith": "Completó todos los estudios y requisitos con una carga horaria total de",
+    "hours": "horas",
+    "certificate": "Certificado",
+    "absoluteZeroTitle": "Programación Cero Absoluto",
+    "flutterFirstTitle": "Primer Registro Flutter",
+    "intensiveNextTitle": "Intensivo Nextjs & Reactjs",
+    "completeFlutterTitle": "Flutter & Dart Completo",
+    "jsAuthorityTitle": "Autoridad en JS"
+  },
+  "Footer": {
+    "sayHello": "DI HOLA",
+    "letWorkTogether": "Trabajemos Juntos.",
+    "contact": "Contacto"
+  }
+}

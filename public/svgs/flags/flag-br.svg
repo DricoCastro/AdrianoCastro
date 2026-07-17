@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 20">
+  <!-- Green background -->
+  <rect width="28" height="20" fill="#009C3B"/>
+  <!-- Yellow diamond -->
+  <polygon points="14,2 26,10 14,18 2,10" fill="#FFDF00"/>
+  <!-- Blue circle -->
+  <circle cx="14" cy="10" r="4.2" fill="#002776"/>
+  <!-- White band -->
+  <path d="M9.8,10 A4.2,4.2 0 0,1 18.2,10" stroke="#FFFFFF" stroke-width="0.9" fill="none"/>
+  <!-- ORDEM E PROGRESSO text (simplified white band) -->
+  <rect x="9.8" y="9.55" width="8.4" height="0.9" fill="#FFFFFF"/>
+  <!-- Green text on white band (simplified) -->
+  <text x="14" y="10.35" font-size="1.1" fill="#009C3B" text-anchor="middle" font-family="sans-serif" font-weight="bold">BRASIL</text>
+  <!-- Stars (simplified dots) -->
+  <g fill="#FFFFFF">
+    <circle cx="14" cy="7.2" r="0.3"/>
+    <circle cx="11.5" cy="8.5" r="0.25"/>
+    <circle cx="16.5" cy="8.5" r="0.25"/>
+    <circle cx="12.5" cy="12.5" r="0.25"/>
+    <circle cx="15.5" cy="12.5" r="0.25"/>
+  </g>
+</svg>

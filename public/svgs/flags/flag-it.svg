@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 20">
+  <!-- Green -->
+  <rect width="9.33" height="20" fill="#009246"/>
+  <!-- White -->
+  <rect x="9.33" width="9.34" height="20" fill="#FFFFFF"/>
+  <!-- Red -->
+  <rect x="18.67" width="9.33" height="20" fill="#CE2B37"/>
+</svg>
