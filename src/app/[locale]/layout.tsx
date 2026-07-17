@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Adriano Castro Portfolio',
     images: [
       {
-        url: '/images/adriano-cover.jpg',
+        url: '/images/adriano-cover.png',
         width: 1200,
         height: 630,
         alt: 'Adriano Castro - Front-end Developer',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Adriano Castro | Web & Mobile Developer",
     description: "I lead the front-end architecture and development of the NAVIA platform. Welcome to my portfolio.",
-    images: ['/images/adriano-cover.jpg'],
+    images: ['/images/adriano-cover.png'],
   },
 };
 
