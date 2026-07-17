@@ -45,7 +45,7 @@ export const AboutMeSection = () => {
         {/* Row 2: Presentation Photo & Current Role */}
         <div className="order-4 md:order-3 md:col-span-1 lg:col-span-5 relative rounded-3xl overflow-hidden shadow-xl h-80 lg:h-[450px] animate-slide-in-left group w-full">
           <Image 
-            src="/images/about2.jpg" 
+            src="/images/about2.JPG" 
             alt="Adriano Castro presenting NAVIA" 
             fill 
             className="object-cover object-center group-hover:scale-105 transition-transform duration-700" 
@@ -76,7 +76,7 @@ export const AboutMeSection = () => {
 
         <div className="order-6 md:order-6 md:col-span-1 lg:col-span-5 relative rounded-3xl overflow-hidden shadow-xl h-80 lg:h-[450px] animate-slide-in-right group w-full">
           <Image 
-            src="/images/about3.jpg" 
+            src="/images/about3.JPG" 
             alt="Adriano Castro at an event" 
             fill 
             className="object-cover object-left group-hover:scale-105 transition-transform duration-700" 

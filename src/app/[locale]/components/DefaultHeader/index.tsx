@@ -233,7 +233,7 @@ export const DefaultHeader = () => {
 
             {/* Drawer Footer */}
             <div className="mt-auto px-6 py-6 border-t border-white/10 flex flex-col items-center gap-4">
-              <LanguageSwitcher />
+              <LanguageSwitcher direction="up" />
               <p className="text-white/40 text-xs text-center">
                 © 2024 Adriano Castro
               </p>

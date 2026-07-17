@@ -88,7 +88,7 @@ function getLocaleFromPath(pathname: string): string {
 
 // --- Component ---
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ direction = 'down' }: { direction?: 'up' | 'down' }) {
   const pathname = usePathname();
   const currentLocale = getLocaleFromPath(pathname);
   const [open, setOpen] = useState(false);
@@ -146,7 +146,9 @@ export default function LanguageSwitcher() {
       {open && (
         <ul
           role="listbox"
-          className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 min-w-[160px] rounded-xl overflow-hidden shadow-2xl border border-white/10"
+          className={`absolute min-w-[160px] rounded-xl overflow-hidden shadow-2xl border border-white/10 ${
+            direction === 'up' ? 'bottom-full mb-2 left-1/2 -translate-x-1/2' : 'top-full mt-2 left-1/2 -translate-x-1/2'
+          }`}
           style={{ backgroundColor: 'rgba(8,8,18,0.96)', backdropFilter: 'blur(16px)' }}
         >
           {locales.map(({ code, label, name, Flag }) => {
