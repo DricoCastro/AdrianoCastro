@@ -20,7 +20,7 @@ export default function CertificatesCarousel() {
     }
 
     return (
-      <div key={i} className="m-auto p-auto h-auto">
+      <div key={i} className="m-auto h-auto">
         <div
           className={`
             m-auto
@@ -33,7 +33,7 @@ export default function CertificatesCarousel() {
             px-4
             bg-white
             md:mx-6
-            mx-2
+            mx-0
             gap-y-8
             lg:mb-14
             mb-16

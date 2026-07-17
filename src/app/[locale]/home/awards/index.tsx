@@ -11,7 +11,7 @@ export const CertificatesSection = () => {
       className={`
       w-full
       lg:px-48
-      px-[15px]
+      px-0
       flex
       flex-col
       items-center
@@ -26,6 +26,7 @@ export const CertificatesSection = () => {
       <div
         className={`
           w-full
+          px-[15px] lg:px-0
           flex
           flex-col
           items-center

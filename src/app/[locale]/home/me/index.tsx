@@ -61,7 +61,7 @@ export const MeSection = () => {
       {/* Right: Photo — contained within the padded layout */}
       <div className="md:w-2/5 flex items-center justify-center w-full animate-fade-in-up-delay-2">
         <Image
-          src="/images/profile.png"
+          src="/images/adriano-cover.jpg"
           alt="Adriano Castro"
           width={480}
           height={720}
